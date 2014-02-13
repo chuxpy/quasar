@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf8"/>
+        <title>quasar interpreter</title>
+        <script src="jquery-1.11.0.js"></script>
+        <script src="peg-0.8.0.js"></script>
+        <script src="peg_load.js"></script>
+        <script src="../quasar.pegjs" type="text/pegjs" id="psrc"></script>
+    </head>
+    <body>
+        <div>Input</div>
+        <textarea id="parseable" onchange="changed_text()" rows="20" cols="50"></textarea>
+        <div>Output</div>
+        <textarea id="output" rows="20" cols="50"></textarea>
+    </body>
+</html>

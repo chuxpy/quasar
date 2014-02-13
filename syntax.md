@@ -23,7 +23,7 @@ a-zA-Z symbols accepted.
 
 ##Function
 
-Basic function recognition is <fn body>, but not implemented to any significant degree.
+Basic function recognition is `<fn body>`, but implemented on AST only.
 
 ##Other special forms
 

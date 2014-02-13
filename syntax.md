@@ -29,7 +29,7 @@ Basic function recognition is <fn body>, but not implemented to any significant 
 
 ###Other forms recognized explicitly by the parser:
 
-*if (TODO)
+* if (TODO)
 
 #AST Parsing
 
@@ -41,7 +41,7 @@ the forms of our program.
 
 `<factorial 10>`
 
-Output: ```javascript
+Output: ```
 {
    "type": "program",
    "body": [

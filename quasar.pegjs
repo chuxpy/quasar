@@ -8,6 +8,8 @@ sexp
 
 w
  = " "+
+ / "\n"+
+ / "\t"+
 
 atom
  = b:bool {return b}
@@ -37,7 +39,7 @@ list
  = "<" w* ">" {return {type: "list", body: null}}
  / "<" w* s:sexp+ w* ">" {
    if(s[0].type==="symbol" && s[0].body==="fn"){
-     return {type: "function", body: ""}
+     return {type: "function", body: s.slice(1)}
    }
    else return {type: "list", body: s}
  }

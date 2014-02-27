@@ -1,0 +1,17 @@
+{
+  "name": "quasar",
+  "version": "0.3.0",
+  "author": "chuxpy",
+  "description": "CS 11 wi 2014",
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chuxpy/quasar.git"
+  },
+  "dependencies" : {
+    "pegjs"   :  "*"
+  },
+  "license": "MIT"
+}

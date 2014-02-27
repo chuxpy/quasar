@@ -6,6 +6,10 @@ An experimental language for CS 11 (WI 2014)
 Running
 -------
 
-Execute `pegjs quasar.pegjs` explicitly or compile it with a PEG grammar reader.
+Install dependencies for quasar by performing `npm install`.
 
-A hosted version of the parser will be made available at this repository.
+Then use `npm start` to boot up the interpreter as it currently stands.
+
+It can assign variables with `def` and execute existing functions. No function definitions yet.
+
+To quit, type `quit` or hit `CTRL+C`.
